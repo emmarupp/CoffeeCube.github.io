@@ -1,0 +1,2203 @@
+
+
+html, body, p{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(HelveticaNeue.ttf);
+  }
+
+@media screen and (min-width: 1080px) {
+    .hidePC{
+        display: none !important;
+    }
+/*________________________________________PC Breakpoint________________________________*/ 
+
+/* Abschnitt 1 */
+
+#abschnitt_1{
+    position: relative;
+    width: auto;
+    height: 100%;
+    background-image: url("Bilderdatenbank/Bild_1.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center right;
+    border-bottom: 1px solid rgba(51, 50, 50);
+}
+
+#logo{
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px; 
+    width: 300px;
+}
+
+#Kapitälchen_titel{
+    padding-left: 58px;
+    padding-top: 236px;
+   
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+#HauptTitel{
+    padding-left: 58px;
+    padding-top: 20px;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+#Subtext{
+    margin-left: 58px;
+    margin-top: 20px;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+#Shopnow_button_1{
+    margin-bottom: 400px;
+    width: 309px;
+    height: 64px;
+    margin-left: 58px;
+    margin-top: 30px;
+
+    background-color: rgba(59, 169, 168, 0.7);
+    border-radius: 20px;
+    border-style: none;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: all 0.3s;
+}
+
+#Shopnow_button_1:hover{
+    margin-bottom: 400px;
+    width: 309px;
+    height: 64px;
+    margin-left: 58px;
+    margin-top: 30px;
+
+    background-color: rgba(59, 169, 168, 1.0);
+    border-radius: 0px;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+}
+
+/* Abschnitt 2 */
+#abschnitt_2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+#KaffeeBereich_1{
+    background-image: url("Bilderdatenbank/Bild_8_Destop.png");
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center center;
+    transition: all 0.3s;
+
+    border: 1px solid rgba(51, 50, 50);
+}
+#KaffeeBereich_2{
+    background-image: url("Bilderdatenbank/Bild_11_Destop.png");
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center center;
+    transition: all 0.3s;
+
+    border: 1px solid rgba(51, 50, 50);
+}
+#KaffeeBereich_3{
+    background-image: url("Bilderdatenbank/Bild_9_Destop.png");
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center center;
+    transition: all 0.3s;
+
+    border: 1px solid rgba(51, 50, 50);
+}
+#KaffeeBereich_1:hover{
+    background-image: url("Bilderdatenbank/Bild_8_Destop.png");
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center center;
+    transform: scale(1.1);
+
+    border: 1px solid rgba(51, 50, 50);
+}
+#KaffeeBereich_2:hover{
+    background-image: url("Bilderdatenbank/Bild_11_Destop.png");
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center center;
+    transform: scale(1.1);
+
+    border: 1px solid rgba(51, 50, 50);
+}
+#KaffeeBereich_3:hover{
+    background-image: url("Bilderdatenbank/Bild_9_Destop.png");
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center center;
+    transform: scale(1.1);
+
+    border: 1px solid rgba(51, 50, 50);
+}
+
+.abschnitt_2Panel{
+    width: 30%;
+    margin-top: 110px;
+    padding-bottom: 15px;
+    margin-bottom: 110px;
+}
+
+.abschnitt_2Panel img{
+    width: 100%;
+}
+
+
+.abschnitt_2Panel p{
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-family: 'HelveticaNeue';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.abschnitt_2PanelFirstHeadline{
+    margin-top: 700px;
+    margin-bottom: 10px;
+}
+
+.subtext_1{
+    font-size: 7px;
+}
+
+.Kapitälchen_überschrift_1{
+    font-size: 20px;
+}
+
+/* Abschnitt 3 */
+#abschnitt_3{
+    width: 100vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5vw;
+}
+
+#textContainerAbschnitt3{
+    height: calc(42.5vw * 1.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width:  42.5vw;
+    position: relative;
+    background-image: url("Bilderdatenbank/Bild_6_Destop.png");
+    background-size: cover;
+    background-position: center center;
+    border: 1px solid rgba(51, 50, 50);
+    padding-bottom: 70px;
+}
+
+#Kapitälchen_1{
+    padding-left: 70px;
+   
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+#Titel1{
+    padding-left: 70px;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+#QuizBild{
+    width: 100%;
+    margin-left: 40px;
+    margin-bottom: 50px; 
+    border: 1px solid rgba(51, 50, 50);
+}
+
+#Quiz_button{
+    width: 309px;
+    height: 64px;
+    margin-left: 70px;
+    margin-top: 30px;
+
+    background-color: rgba(59, 169, 168, 0.7);
+    border-radius: 20px;
+    border-style: none;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: all 0.3s;
+}
+
+#Quiz_button:hover{
+    width: 309px;
+    height: 64px;
+    margin-left: 70px;
+    margin-top: 30px;
+
+    background-color: rgba(59, 169, 168, 1.0);
+    border-radius: 0px;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+#videoContainer{
+    width: 32.5vw;
+    overflow: hidden;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+video{
+    width: 100%;
+}
+
+
+/* Abschnitt 4 */
+#abschnitt4{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+#rechte_Seite{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#linke_Seite{
+    width: 800px;
+}
+
+#Subscribtion{
+    border: 1px solid rgba(51, 50, 50);
+    width: 100%;
+    height: auto;
+}
+
+#SubscribtionTitel{
+    padding-left: 78px;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+#SubscriptionText{
+    margin-left: 78px;
+    margin-top: 20px;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.iconBlock{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 78px; 
+}
+
+.iconBlock img{
+    width: 100px;
+    height: auto;
+}
+
+.Titel_Icon{
+    margin-left: 78px;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.Text_Icon{
+    margin-left: 78px;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+#Subscription_button{
+    width: 309px;
+    height: 64px;
+
+    margin-top: -150px;
+    margin-bottom: 90px;
+
+    background-color: rgba(59, 169, 168, 0.7);
+    border-radius: 20px;
+    border-style: none;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: all 0.3s;
+}
+
+#Subscription_button:hover{
+    width: 309px;
+    height: 64px;
+
+    margin-top: -150px;
+    margin-bottom: 90px;
+
+    background-color: rgba(59, 169, 168, 1.0);
+    border-radius: 0px;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+/* Abschnitt 5 */
+#abschnitt_5{
+    font-family: 'HelveticaNeue';
+}
+
+#allSlides{
+    display: flex;
+    width: 100%;
+    transition: all 2s;
+}
+
+#prevButton{
+    margin-left: 15px; 
+}
+
+#nextButton{
+    margin-right: 15px; 
+}
+
+#arrows{
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+#arrows img{
+    width: 50px;
+    height: auto;
+}
+
+#slider {
+    width: calc(5 * 30vw + 5 * 5vw);
+    position: relative;
+    display: flex;
+}
+
+.slide{
+    width: calc(80vw/3);
+    margin-left: 5vw;
+    color: #FFFFFF;
+}
+
+.slide img{
+    width: 100%;
+}
+
+.slide hr{
+    margin-top: 20px;
+}
+
+.slideFirstRow{
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.slideSecondRow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+    transition: all 0.3s;
+}
+
+#allSlides{
+    padding-bottom: 15px;
+    transition: all 0.3s;
+}
+
+.slideThirdRow{
+    font-size: 10px;
+    margin-top: 3px;
+    transition: all 0.3s;
+}
+
+#sliderPointer{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.dot{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#activeDot{
+    background-color: coral;
+}
+
+#passiveDot{
+    background-color: yellowgreen;
+}
+ 
+
+/* Abschnitt 6 */
+#abschnitt_6{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+#abschnitt_6 img{
+    width: 70%;
+    height: auto;
+}
+
+#LearnMore_button{
+    width: 309px;
+    height: 64px;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    background-color: rgba(59, 169, 168, 0.7);
+    border-radius: 20px;
+    border-style: none;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: all 0.3s;
+}
+
+#LearnMore_button:hover{
+    width: 309px;
+    height: 64px;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    background-color: rgba(59, 169, 168, 1.0);
+    border-radius: 0px;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+.überschrift_abschnitt6{
+    padding-top: 50px;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.subtext_abschnitt6{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+/* Abschnitt 7 */
+#News_button{
+    width: 309px;
+    height: 64px;
+    
+    margin-top: 50px;
+
+    background-color: rgba(205, 202, 202, 1.0);
+    border-style: none;
+    border: 1px solid rgba(112, 112, 112);
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(65,61,57);
+    transition: all 0.3s;
+}
+
+#JoinNews_button{
+    width: 309px;
+    height: 64px;
+    
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+    background-color: rgba(45, 36, 31, 1.0);
+    border-style: none;
+    border: 1px solid rgba(112, 112, 112);
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(255,255,255);
+    transition: all 0.3s;
+}
+
+#abschnitt_7{
+    background-color: rgb(26,22,20);
+    display: flex;
+    align-items: right;
+    flex-wrap: wrap;
+    justify-content: end;
+    
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#footerTexte{
+    width: calc(100vw - 609px);
+    display: flex;
+    gap: 5%;
+    justify-content: end;
+}
+
+#teil_1{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo_fooder{
+    width: 300px;
+    height: auto;
+    margin-top: 100px;
+}
+
+#logo_unterschrift{
+    margin-top: 25px;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 270px;
+ }
+
+.Subline_fooder{
+    padding-bottom: 20px;
+    padding-top: 100px;
+    padding-left: 50px;
+    
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.text_fooder{
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 50px;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+/* Abschnitt 8 */
+#footer_ende{
+    background-color: rgb(26,22,20);
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgba(112, 112, 112);
+}
+
+#footer_ende p{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-left: 50px;
+    text-align: center;
+}
+
+/*________________________________________Tablet/Breakpoint________________________________*/
+@media only screen and (min-width: 481px) and (max-width: 1080px){ /*960* *480 768*/
+    .hideMobile{
+        display: none;
+    }
+
+    /* Abschnitt_1_Tablet */
+    #abschnitt_1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        position: relative;
+        width: auto;
+        height: 100%;
+        background-image: url("Bilderdatenbank/Bild_1Tablet.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center right;
+        margin-bottom: 100px;
+    }
+
+    #logo{
+        float: right;
+        margin-top: 25px;
+        margin-right: 25px; 
+        width: 300px;
+    }
+
+    #Kapitälchen_titel{
+        margin-top: 300px;
+        overflow: hidden;
+        font-family: 'HelveticaNeue';
+        font-size: 20px;
+        text-align: center;
+        color:#FFFFFF;
+    }
+
+    #logo{
+        align-self: flex-end;
+    }
+
+    #HauptTitel {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        font-family: 'HelveticaNeue';
+        font-size: 60px;
+        text-align: center;
+        color:#FFFFFF;
+    }
+
+    #Subtext {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        font-family: 'HelveticaNeue';
+        font-size: 20px;
+        text-align: center;
+        color:#FFFFFF;
+    }
+
+    #Shopnow_button_1{
+        width: 309px;
+        height: 64px;
+        margin-top: 30px;
+        margin-bottom: 300px;
+
+        background-color: rgba(59, 169, 168, 0.7);
+        border-radius: 20px;
+        border-style: none;
+        font-family: 'HelveticaNeue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        transition: all 0.3s;
+
+    }
+
+    #Shopnow_button_1:hover{
+        width: 309px;
+        height: 64px;
+        margin-top: 30px;
+        margin-bottom: 300px;
+
+        background-color: rgba(59, 169, 168, 1.0);
+        border-radius: 0px;
+        font-family: 'HelveticaNeue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        letter-spacing: 2px;
+    }
+
+
+/* Abschnitt 2_Tablet */
+#abschnitt_2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    flex-direction: column;
+    margin-bottom: 150px;
+    
+}
+
+#KaffeeBereich_1{
+    background-image: url("Bilderdatenbank/Bild_8_Tablet.png");
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center center;
+    transition: all 0.3s;
+
+    border: 1px solid rgba(51, 50, 50);
+}
+#KaffeeBereich_2{
+    background-image: url("Bilderdatenbank/Bild_11_Tablet.png");
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center center;
+    transition: all 0.3s;
+
+    border: 1px solid rgba(51, 50, 50);
+}
+#KaffeeBereich_3{
+    background-image: url("Bilderdatenbank/Bild_9_Tablet.png");
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center center;
+    transition: all 0.3s;
+
+    border: 1px solid rgba(51, 50, 50);
+}
+#KaffeeBereich_1:hover{
+    background-image: url("Bilderdatenbank/Bild_8_Tablet.png");
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center center;
+    transform: scale(1.05);
+
+    border: 1px solid rgba(51, 50, 50);
+}
+#KaffeeBereich_2:hover{
+    background-image: url("Bilderdatenbank/Bild_11_Tablet.png");
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center center;
+    transform: scale(1.05);
+
+    border: 1px solid rgba(51, 50, 50);
+}
+#KaffeeBereich_3:hover{
+    background-image: url("Bilderdatenbank/Bild_9_Tablet.png");
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center center;
+    transform: scale(1.05);
+
+    border: 1px solid rgba(51, 50, 50);
+}
+
+.abschnitt_2Panel{
+    height: 350px;
+    width: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.abschnitt_2Panel img{
+    width: 100%;
+}
+
+
+.abschnitt_2Panel p{
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-family: 'HelveticaNeue';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.abschnitt_2PanelFirstHeadline{
+    margin-top: 280px;
+    margin-bottom: 10px;
+}
+
+.subtext_1{
+    font-size: 7px;
+}
+
+.Kapitälchen_überschrift_1{
+    font-size: 20px;
+}
+
+/* Abschnitt 3_Tablet */
+#abschnitt_3{
+    width: 100vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5vw;
+}
+
+#textContainerAbschnitt3{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 90vw;
+    position: relative;
+    background-image: url("Bilderdatenbank/Bild_6_Destop.png");
+    background-size: cover;
+    background-position: center center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#Kapitälchen_1{
+    padding-left: 70px;
+   
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+#Titel1{
+    padding-left: 70px;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+#QuizBild{
+    display: none;
+    width: 100%;
+    margin-left: 40px;
+    margin-bottom: 50px; 
+    border: 1px solid rgba(51, 50, 50);
+}
+
+#Quiz_button{
+    width: 309px;
+    height: 64px;
+    margin-left: 70px;
+    margin-top: 30px;
+
+    background-color: rgba(59, 169, 168, 0.7);
+    border-radius: 20px;
+    border-style: none;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: all 0.3s;
+}
+
+#Quiz_button:hover{
+    width: 309px;
+    height: 64px;
+    margin-left: 70px;
+    margin-top: 30px;
+
+    background-color: rgba(59, 169, 168, 1.0);
+    border-radius: 0px;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+#videoContainer{
+    width: 60%;
+    overflow: hidden;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+video{
+    width: 100%;
+}
+
+
+/* Abschnitt 4_Tablet */
+#abschnitt4{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap ;
+    align-items: center;
+    margin-top: 200px;
+}
+
+#rechte_Seite{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  
+}
+
+#linke_Seite{
+    width: auto;
+}
+
+#Subscribtion{
+    border: 1px solid rgba(51, 50, 50);
+    width: 700px;
+    height: auto;
+    
+    
+}
+
+#SubscribtionTitel{
+    padding-left: 78px;
+    text-align: center;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+#SubscriptionText{
+    margin-left: 78px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.iconBlock{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 78px; 
+}
+
+.iconBlock img{
+    width: 100px;
+    height: auto;
+}
+
+.Titel_Icon{
+    margin-left: 78px;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.Text_Icon{
+    margin-left: 78px;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+#Subscription_button{
+    width: 309px;
+    height: 64px;
+
+    margin-top: -150px;
+    margin-bottom: 90px;
+
+    background-color: rgba(59, 169, 168, 0.7);
+    border-radius: 20px;
+    border-style: none;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: all 0.3s;
+}
+
+#Subscription_button:hover{
+    width: 309px;
+    height: 64px;
+
+    margin-top: -150px;
+    margin-bottom: 90px;
+
+    background-color: rgba(59, 169, 168, 1.0);
+    border-radius: 0px;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+/* Abschnitt 5 */
+#abschnitt_5{
+    font-family: 'HelveticaNeue';
+}
+
+#allSlides{
+    display: flex;
+    width: 100%;
+    transition: all 2s;
+}
+
+#arrows{
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+#prevButton{
+    margin-left: 10px; 
+}
+
+#nextButton{
+    margin-right: 0px; 
+}
+
+#arrows img{
+    width: 30px;
+    height: auto;
+}
+
+#slider {
+    width: calc(5 * 30vw + 5 * 5vw);
+    position: relative;
+    display: flex;
+}
+
+.slide{
+    width: calc(80vw/3);
+    margin-left: 5vw;
+    color: #FFFFFF;
+}
+
+.slide img{
+    width: 100%;
+}
+
+.slide hr{
+    margin-top: 20px;
+}
+
+.slideFirstRow{
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+
+.slideSecondRow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+    transition: all 0.3s;
+}
+
+#allSlides{
+    padding-bottom: 15px;
+    transition: all 0.3s;
+}
+
+.slideThirdRow{
+    font-size: 10px;
+    margin-top: 3px;
+    transition: all 0.3s;
+}
+
+#sliderPointer{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+/* Abschnitt 6 */
+#abschnitt_6{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#abschnitt_6 img{
+    width: 100%;
+    height: auto;
+}
+
+#LearnMore_button{
+    width: 309px;
+    height: 64px;
+
+    margin-top: 80px;
+    margin-bottom: 100px;
+
+    background-color: rgba(59, 169, 168, 0.7);
+    border-radius: 20px;
+    border-style: none;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: all 0.3s;
+}
+
+#LearnMore_button:hover{
+    width: 309px;
+    height: 64px;
+
+    margin-top: 80px;
+    margin-bottom: 100px;
+
+    background-color: rgba(59, 169, 168, 1.0);
+    border-radius: 0px;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+.überschrift_abschnitt6{
+    padding-top: 70px;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    color: #FFFFFF;
+}
+
+.subtext_abschnitt6{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+/* Abschnitt 7 */
+#News_button{
+    width: 309px;
+    height: 64px;
+    
+    margin-top: 50px;
+
+    background-color: rgba(205, 202, 202, 1.0);
+    border-style: none;
+    border: 1px solid rgba(112, 112, 112);
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(65,61,57);
+    transition: all 0.3s;
+}
+
+#JoinNews_button{
+    width: 309px;
+    height: 64px;
+    
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+    background-color: rgba(45, 36, 31, 1.0);
+    border-style: none;
+    border: 1px solid rgba(112, 112, 112);
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(255,255,255);
+    transition: all 0.3s;
+}
+
+#abschnitt_7{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    justify-content: center;
+    background-color: rgb(26,22,20);
+    
+    padding-left: 50px;
+    padding-right: 70px;
+}
+
+#footerTexte{
+    background-color: rgb(26,22,20);
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    padding-bottom: 50px;
+}
+
+#teil_1{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo_fooder{
+    width: 300px;
+    height: auto;
+    margin-top: 100px;
+}
+
+#logo_unterschrift{
+    margin-top: 25px;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 270px;
+ }
+
+.Subline_fooder{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+    
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.text_fooder{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 50px;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+/* Abschnitt 8 */
+#footer_ende{
+    background-color: rgb(26,22,20);
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgba(112, 112, 112);
+}
+
+#footer_ende p{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-left: 50px;
+    text-align: center;
+}
+}
+
+
+/*________________________________________Handy/Breakpoint________________________________*/
+@media only screen and (min-width: 0px) and (max-width: 481px){ 
+    .hideMobile{
+        display: none;
+    }
+   /* Abschnitt_1_Handy */
+   #abschnitt_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    position: relative;
+    width: auto;
+    height: 100%;
+    background-image: url("Bilderdatenbank/Bild_1Handy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    margin-bottom: 100px;
+}
+
+#logo{
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px; 
+    width: 300px;
+}
+
+#Kapitälchen_titel{
+    margin-top: 300px;
+    overflow: hidden;
+    font-family: 'HelveticaNeue';
+    font-size: 15px;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+#logo{
+    align-self: flex-end;
+}
+
+#HauptTitel {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'HelveticaNeue';
+    font-size: 35px;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+#Subtext {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    line-height: 1.7;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'HelveticaNeue';
+    font-size: 13.5px;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+#Shopnow_button_1{
+    width: 209px;
+    height: 54px;
+    margin-top: 30px;
+    margin-bottom: 170px;
+
+    background-color: rgba(59, 169, 168, 0.7);
+    border-radius: 20px;
+    border-style: none;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: all 0.3s;
+
+}
+
+#Shopnow_button_1:hover{
+    width: 209px;
+    height: 54px;
+    margin-top: 30px;
+    margin-bottom: 170px;
+
+    background-color: rgba(59, 169, 168, 1.0);
+    border-radius: 0px;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+
+/* Abschnitt 2_Handy */
+#abschnitt_2{
+display: flex;
+justify-content: space-evenly;
+background-color: black;
+flex-direction: column;
+
+}
+
+#KaffeeBereich_1{
+background-image: url("Bilderdatenbank/Bild_8_Tablet.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+transition: all 0.3s;
+
+border: 1px solid rgba(51, 50, 50);
+}
+#KaffeeBereich_2{
+background-image: url("Bilderdatenbank/Bild_11_Tablet.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+transition: all 0.3s;
+
+border: 1px solid rgba(51, 50, 50);
+}
+#KaffeeBereich_3{
+background-image: url("Bilderdatenbank/Bild_9_Tablet.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+transition: all 0.3s;
+
+border: 1px solid rgba(51, 50, 50);
+}
+#KaffeeBereich_1:hover{
+background-image: url("Bilderdatenbank/Bild_8_Tablet.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+transform: scale(1.05);
+
+border: 1px solid rgba(51, 50, 50);
+}
+#KaffeeBereich_2:hover{
+background-image: url("Bilderdatenbank/Bild_11_Tablet.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+transform: scale(1.05);
+
+border: 1px solid rgba(51, 50, 50);
+}
+#KaffeeBereich_3:hover{
+background-image: url("Bilderdatenbank/Bild_9_Tablet.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+transform: scale(1.05);
+
+border: 1px solid rgba(51, 50, 50);
+}
+
+.abschnitt_2Panel{
+height: 430px;
+width: auto;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: -40px;
+}
+
+.abschnitt_2Panel img{
+width: 100%;
+}
+
+.abschnitt_2Panel p{
+margin-left: 20px;
+color: #FFFFFF;
+font-family: 'HelveticaNeue';
+font-weight: 400;
+font-style: normal;
+}
+
+.abschnitt_2PanelFirstHeadline{
+margin-top: 360px;
+}
+
+.subtext_1{
+font-size: 7px;
+}
+
+.Kapitälchen_überschrift_1{
+font-size: 20px;
+}
+
+/* Abschnitt 3_Handy */
+#abschnitt_3{
+    width: 100vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5vw;
+}
+
+#textContainerAbschnitt3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    position: relative;
+    background-image: url("Bilderdatenbank/Bild_6_Destop.png");
+    background-size: cover;
+    background-position: center center;
+    padding-top: 175px;
+    padding-bottom: 25px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+#Kapitälchen_1{
+    padding-left: 0px;
+    padding-bottom: 10px;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+#Titel1{
+    padding-left: 0;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    color: #FFFFFF;
+}
+
+#QuizBild{
+    display: none;
+    width: 100%;
+    margin-bottom: 50px; 
+    border: 1px solid rgba(51, 50, 50);
+}
+
+#Quiz_button{
+    margin-left: 0;
+    padding-left: 0;
+    width: 50vw;
+    height: 54px;
+    margin-top: 30px;
+
+    background-color: rgba(59, 169, 168, 0.7);
+    border-radius: 20px;
+    border-style: none;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: all 0.3s;
+}
+
+#Quiz_button:hover{
+    margin-left: 0;
+    padding-left: 0;
+    width: 50vw;
+    height: 54px;
+    margin-top: 30px;
+
+    background-color: rgba(59, 169, 168, 1.0);
+    border-radius: 0px;
+
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+#videoContainer{
+    width: 90%;
+    overflow: hidden;
+    margin-left: 0;
+}
+
+video{
+    width: 100%;
+}
+
+/* Abschnitt 4_Handy */
+#abschnitt4{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap ;
+align-items: center;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+#rechte_Seite{
+width: 50%;
+display: flex;
+align-items: center;
+margin-bottom: 50px;
+margin-top: 50px;
+
+}
+
+#linke_Seite{
+width: auto;
+}
+
+#Subscribtion{
+border: 1px solid rgba(51, 50, 50);
+width: 200%;
+height: auto;
+}
+
+#SubscribtionTitel{
+padding-left: 8px;
+text-align: center;
+font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+color: #FFFFFF;
+}
+
+#SubscriptionText{
+margin-left: 8px;
+margin-top: 20px;
+text-align: center;
+font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+color: #FFFFFF;
+}
+
+.iconBlock{
+display: flex;
+align-items: center;
+margin-top: 50px;
+margin-left: 18px; 
+}
+
+.iconBlock img{
+width: 70px;
+height: auto;
+}
+
+.Titel_Icon{
+margin-left: 20px;
+margin-bottom: 5px;
+
+font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+}
+
+.Text_Icon{
+margin-left: 20px;
+margin-right: 20px;
+font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+#Subscription_button{
+width: 209px;
+height: 54px;
+
+margin-top: -70px;
+margin-bottom: 90px;
+
+background-color: rgba(59, 169, 168, 0.7);
+border-radius: 10px;
+border-style: none;
+
+font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+text-align: center;
+color: #FFFFFF;
+transition: all 0.3s;
+}
+
+#Subscription_button:hover{
+width: 209px;
+height: 54px;
+
+margin-top: -70px;
+margin-bottom: 90px;
+
+background-color: rgba(59, 169, 168, 1.0);
+border-radius: 0px;
+
+font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+text-align: center;
+color: #FFFFFF;
+letter-spacing: 2px;
+}
+
+/* Abschnitt 5 */
+#abschnitt_5 p{
+    font-family: 'HelveticaNeue';
+}
+
+#allSlides{
+    display: flex;
+    width: 100%;
+    transition: all 2s;
+}
+
+#arrows{
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+#arrows img{
+    width: 30px;
+    height: auto;
+}
+
+#prevButton{
+    margin-left: 10px; 
+}
+
+#nextButton{
+    margin-right: 0px; 
+}
+
+#slider {
+    width: calc(5 * 80vw + 6 * 10vw);
+    position: relative;
+    display: flex;
+}
+
+.slide{
+    width: calc(80vw);
+    margin-left: 10vw;
+    color: #FFFFFF;
+}
+
+.slide img{
+    width: 100%;
+}
+
+.slide hr{
+    margin-top: 20px;
+}
+
+.slideFirstRow{
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+
+.slideSecondRow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+    transition: all 0.3s;
+}
+
+#allSlides{
+    padding-bottom: 15px;
+    transition: all 0.3s;
+}
+
+.slideThirdRow{
+    font-size: 10px;
+    margin-top: 3px;
+    transition: all 0.3s;
+}
+
+#sliderPointer{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+/* Abschnitt 6_Handy */
+#abschnitt_6{
+display: flex;
+align-items:center;
+
+justify-content: end; 
+flex-direction: column;
+
+background-image: url("Bilderdatenbank/Bild_15_Handy.png");
+background-size: cover;
+background-position: center center;
+padding-top: 10px;
+margin-top: 0;
+}
+
+#abschnitt_6 img{
+width: 100%;
+height: auto;
+}
+
+#LearnMore_button{
+width: 209px;
+height: 54px;
+
+margin-top: 8px;
+
+background-color: rgba(59, 169, 168, 0.7);
+border-radius: 10px;
+border-style: none;
+
+font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+text-align: center;
+color: #FFFFFF;
+transition: all 0.3s;
+margin-bottom: 50px;
+}
+
+#LearnMore_button:hover{
+width: 209px;
+height: 54px;
+
+margin-top: 8px;
+margin-bottom: 100px;
+
+background-color: rgba(59, 169, 168, 1.0);
+border-radius: 0px;
+
+font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+text-align: center;
+color: #FFFFFF;
+letter-spacing: 2px;
+}
+
+.überschrift_abschnitt6{
+margin-top: calc(100vw * 1);
+font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+color: #FFFFFF;
+}
+
+.subtext6_handy{
+margin-top: 20px;
+margin-bottom: 20px;
+text-align: center;
+
+font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+font-kerning: normal;
+padding-left: 20px;
+padding-right: 20px;
+
+color: #FFFFFF;
+}
+
+#Quality{
+    display: none;
+}
+.subtext_abschnitt6{
+display: none;
+margin-top: 20px;
+margin-bottom: 50px;
+text-align: center;
+
+font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+font-kerning: normal;
+padding-left: 20px;
+padding-right: 20px;
+
+color: #FFFFFF;
+}
+
+/* Abschnitt 7_Handy */
+#News_button{
+width: 309px;
+height: 64px;
+
+margin-top: 50px;
+
+background-color: rgba(205, 202, 202, 1.0);
+border-style: none;
+border: 1px solid rgba(112, 112, 112);
+
+font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+text-align: center;
+color: rgb(65,61,57);
+transition: all 0.3s;
+}
+
+#JoinNews_button{
+width: 309px;
+height: 64px;
+
+margin-top: 10px;
+margin-bottom: 50px;
+
+background-color: rgba(45, 36, 31, 1.0);
+border-style: none;
+border: 1px solid rgba(112, 112, 112);
+
+font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+text-align: center;
+color: rgb(255,255,255);
+transition: all 0.3s;
+}
+
+#abschnitt_7{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-color: rgb(26,22,20);
+
+}
+
+#footerTexte{
+background-color: rgb(26,22,20);
+display: flex;
+justify-content: space-evenly;
+width: 300px;
+padding-bottom: 10px;
+margin-left: 50px;
+margin-right: 100px;
+}
+
+#teil_1{
+display: flex;
+flex-direction: column;
+}
+
+#logo_fooder{
+width: 300px;
+height: auto;
+margin-top: 100px;
+}
+
+#logo_unterschrift{
+margin-top: 25px;
+font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+color: #FFFFFF;
+text-align: center;
+width: 270px;
+}
+
+.Subline_fooder{
+padding-bottom: 20px;
+padding-top: 20px;
+
+font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #FFFFFF;
+}
+
+.text_fooder{
+padding-bottom: 15px;
+padding-top: 15px;
+
+font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+color: #FFFFFF;
+}
+
+/* Abschnitt 8_Handy */
+#footer_ende{
+background-color: rgb(26,22,20);
+display: flex;
+justify-content: center;
+border-top: 1px solid rgba(112, 112, 112);
+}
+
+#footer_ende p{
+margin-top: 35px;
+margin-bottom: 35px;
+font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+color: #FFFFFF;
+margin-left: 10px;
+text-align: center;
+}
+}
